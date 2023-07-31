@@ -1,0 +1,18 @@
+-- Table: public.addressdata
+
+-- DROP TABLE IF EXISTS public.addressdata;
+
+CREATE TABLE IF NOT EXISTS public.addressdata
+(
+    id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    addresslineone character varying(200) COLLATE pg_catalog."default",
+    addresslinetwo character varying(200) COLLATE pg_catalog."default",
+    addresslinethree character varying(200) COLLATE pg_catalog."default",
+    region character varying(200) COLLATE pg_catalog."default",
+    pincode character varying(50) COLLATE pg_catalog."default"
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.addressdata
+    OWNER to postgres;

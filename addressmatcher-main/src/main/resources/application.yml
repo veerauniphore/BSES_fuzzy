@@ -1,0 +1,8 @@
+server:
+   port: 9906
+   ssl:
+      key-store-type: PKCS12
+      key-store: /opt/uniphore/u-selfserve/cert/uniphore.pfx
+      key-store-password: UN14$sl#23#$1
+      key-alias: 1
+      enabled: false

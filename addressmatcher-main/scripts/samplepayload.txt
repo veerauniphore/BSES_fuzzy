@@ -1,0 +1,11 @@
+{
+	"pincode":"500000",
+	"area":"block d",
+	"matchedarea":""//no previous matched
+}
+
+{
+	"pincode":"500000",
+	"area":"block d",
+	"matchedarea":"xyz nagar"
+}
